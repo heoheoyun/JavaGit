@@ -2,7 +2,7 @@ package Report1;
 
 import java.util.Scanner;
 
-public class Rect {
+public class OC_02_03 {
 	public static void main(String[] args) {
 		int x1=10 ,y1=10, x2=200, y2=300;
 		
