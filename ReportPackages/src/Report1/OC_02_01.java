@@ -2,7 +2,7 @@ package Report1;
 
 import java.util.Scanner;
 
-public class dollor {
+public class OC_02_01 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int dollor;
