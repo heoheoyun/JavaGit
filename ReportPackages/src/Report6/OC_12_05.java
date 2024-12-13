@@ -14,7 +14,7 @@ public class OC_12_05 extends JFrame {
         setTitle("Image Zoom");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        imagePanel = new ImagePanel("C:\\oop\\ReportPackages\\src\\Report6\\apple.jpg");
+        imagePanel = new ImagePanel("C:\\Users\\a9016\\git\\JavaGit\\ReportPackages\\src\\Report6\\apple.jpg");
         add(imagePanel);
 
         // Key listener for zoom
