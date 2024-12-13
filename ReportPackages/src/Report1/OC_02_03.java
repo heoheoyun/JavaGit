@@ -2,7 +2,7 @@ package Report1;
 
 import java.util.Scanner;
 
-public class order {
+public class OC_02_03 {
 	public static void main(String[] args) {
 		
 	Scanner scanner = new Scanner(System.in);
