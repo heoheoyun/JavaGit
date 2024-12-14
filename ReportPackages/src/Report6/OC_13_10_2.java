@@ -52,16 +52,16 @@ public class OC_13_10_2 extends JFrame {
         });
 
         bubbles = new Vector<>();
-        isPaused = false;  // 초기에는 멈추지 않음
+        isPaused = false;
         bubbleTimer.start();
 
         addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_S) {
-                    isPaused = true;  // s키가 눌리면 멈춤
+                    isPaused = true;
                 } else if (e.getKeyCode() == KeyEvent.VK_R) {
-                    isPaused = false;  // r키가 눌리면 다시 시작
+                    isPaused = false;
                 }
             }
         });
